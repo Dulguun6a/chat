@@ -8,13 +8,21 @@
 </head>
 <body>
     <div class="body">
+        <div class="buttons">
+            <button class="button" id="you">You</button>
+            &nbsp;
+            <button class="button2" id="tulga">Tulga</button>
+        </div>
         <div class="box">
-            <div class="message"></div>
+            <div class="message">
+                <div id="list" class="list"></div> 
+            </div>
             <div class="chat">
-                <input type="text">
-                <button>Send</button>
+                <input type="text" id="newname" placeholder="Enter your message...">
+                <button class="button3" onclick="SaveName()">Send</button>
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
